@@ -1,0 +1,22 @@
+{
+  "name": "filen-webdav",
+  "version": "0.0.1",
+  "description": "filen webdav",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @dotenvx/dotenvx run --env-file=.env.production -- node index.js",
+    "dev": "npx @dotenvx/dotenvx run --env-file=.env.local -- node index.js"
+  },
+  "keywords": [
+    "filen",
+    "webdav"
+  ],
+  "author": "alivecat",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.44.1",
+    "@filen/webdav": "^0.2.63",
+    "dotenv": "^16.5.0"
+  }
+}
